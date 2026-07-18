@@ -77,11 +77,15 @@
     <h2>Proyectos</h2>
 
     <article class="proyecto">
-      <h3>Segmentación de árbol individual</h3>
-      <p>Procesamiento de nube de puntos para segmentar la estructura de ramas
-      de un árbol individual y extraer métricas dendrométricas.</p>
-      <p class="tags">LiDAR · R · lidR</p>
-      <img src="arbol-altura.png" alt="Nube de puntos LiDAR de un árbol coloreada por altura, de la base a la copa">
+      <h3>Análisis estructural de árbol individual (QSM + riesgo de ramas)</h3>
+      <p>A partir de una nube de puntos TLS del bosque de Wytham reconstruí un
+      modelo cuantitativo de estructura (QSM) con esqueletización, estimación
+      de radios y jerarquía de ramas. Sobre ese modelo calculé el momento de
+      flexión por rama y clasifiqué cada eje en un semáforo de prioridad
+      (alta, media, baja) combinando momento de flexión, longitud y ángulo de
+      inserción, exportando las ramas priorizadas para evaluación de riesgo.</p>
+      <img src="arbol-altura.png" alt="Nube de puntos TLS de un árbol individual coloreada por altura, insumo del análisis QSM">
+      <p class="tags">TLS · R · lidR · aRchi · QSM</p>
     </article>
 
     <article class="proyecto">
